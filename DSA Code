@@ -4,7 +4,7 @@ public class BalancedParentheses {
 
     public static boolean isBalanced(String s) {
         if (s == null || s.isEmpty()) {
-            return true; // Edge case
+            return true;
         }
 
         Stack<Character> stack = new Stack<>();
