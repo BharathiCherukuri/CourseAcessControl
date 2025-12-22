@@ -30,23 +30,3 @@ API Endpoints
 Rules:
 Only enrolled users can access lessons.
 Non-enrolled users receive HTTP 403 Forbidden.
-
-
-DSA Solution  - Check if a string of parentheses is balanced.
-
-Approach:
-1. Use a Stack to track opening parentheses.
-2. Pop from stack when encountering a closing parenthesis.
-Return true if stack is empty at the end.
-
-Time Complexity: O(n)
-Space Complexity: O(n)
-
-Design Assumptions - 1. Data is stored in-memory using Java collections (no database).
-2. Enrollment and lesson data are mock data for demonstration.
-3. No authentication layer is implemented.
-4. This project is for educational and assessment purposes
-
-
-
-
